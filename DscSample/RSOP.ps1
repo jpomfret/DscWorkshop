@@ -1,5 +1,5 @@
 $here = $PSScriptRoot
-Import-Module ProtectedData
+#Import-Module ProtectedData
 Import-Module powershell-yaml
 $m = Import-Module Datum -PassThru
 
@@ -12,5 +12,5 @@ $roleDefinitions = Get-ChildItem -Path $here\DSC_ConfigData\Roles -Recurse -Incl
 $datum = New-DatumStructure -DefinitionFile $datumDefinitionFile
 $h = $datum.AllNodes.ToHashTable()
 
-$rsop = Get-DatumRsop -Datum $datum -AllNodes $datum.AllNodes.Dev
-$rsop
+$rsop = Get-DatumRsop -Datum $datum -AllNodes $h
+$rsop   
