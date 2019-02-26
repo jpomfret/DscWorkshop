@@ -2,3 +2,5 @@ DscSample/BuildOutput/*
 
 DscSample/DSC_Configurations/*
 DscSample/DSC_Resources/*
+
+archive/*
