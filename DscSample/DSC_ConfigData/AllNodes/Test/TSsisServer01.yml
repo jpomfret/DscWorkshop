@@ -1,0 +1,4 @@
+NodeName: TSsisServer01
+Environment: Test
+Role: SsisServer
+Description: ODS Server for Majesco

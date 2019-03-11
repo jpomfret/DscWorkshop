@@ -1,0 +1,5 @@
+Items:
+    - DestinationPath: C:\Test
+      Type: Directory
+    - DestinationPath: D:\Data
+      Type: Directory

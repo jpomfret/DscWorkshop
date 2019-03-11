@@ -29,7 +29,7 @@ lookup_options:
   LcmConfig\Settings:
     merge_hash: deep
   LcmConfig\ReportServerWeb: deep
-  LcmConfig\ConfigurationRepositoryWeb:
-    merge_hash: deep
-  LcmConfig\ConfigurationRepositoryWeb\Server:
-    merge_hash: deep
+  #LcmConfig\ConfigurationRepositoryWeb:
+  #  merge_hash: deep
+  #LcmConfig\ConfigurationRepositoryWeb\Server:
+  #  merge_hash: deep

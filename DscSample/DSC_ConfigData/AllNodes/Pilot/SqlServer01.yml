@@ -1,4 +1,0 @@
-NodeName: SqlServer01
-Environment: Pilot
-Role: SqlServer
-Description: First SQL Server

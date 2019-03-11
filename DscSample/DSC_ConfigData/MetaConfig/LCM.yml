@@ -1,6 +1,6 @@
 LcmConfig:
   Settings:
-    RefreshMode: Pull
+    RefreshMode: Push
     RefreshFrequencyMins: 60
     RebootNodeIfNeeded: false
     ActionAfterReboot: ContinueConfiguration
@@ -8,10 +8,6 @@ LcmConfig:
     #CertificateID: ...
     ConfigurationMode: ApplyAndMonitor
     ConfigurationModeFrequencyMins: 1440
-  ConfigurationRepositoryWeb:
-    Server:
-      ServerURL: https://dscpull01.contoso.com:8080/PSDSCPullServer.svc
-      RegistrationKey: ec717ee9-b343-49ee-98a2-26e53939eecf
-  ReportServerWeb:
-      ServerURL: https://dscpull01.contoso.com:8080/PSDSCPullServer.svc
-      RegistrationKey: ec717ee9-b343-49ee-98a2-26e53939eecf
+
+  ResourceRepositoryShare: 
+    SourcePath: '\\svpsqlamanagement\Modules\DSCResources'

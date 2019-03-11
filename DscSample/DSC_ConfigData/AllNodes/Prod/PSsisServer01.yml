@@ -1,0 +1,7 @@
+NodeName: PSsisServer01
+Environment: Prod
+Role: SsisServer
+Description: ODS Server for Majesco
+
+PSDscAllowPlainTextPassword: True
+PSDscAllowDomainUser: True

@@ -1,0 +1,4 @@
+NodeName: TSqlServer01
+Environment: Test
+Role: SqlServer
+Description: SQL Server for Majesco

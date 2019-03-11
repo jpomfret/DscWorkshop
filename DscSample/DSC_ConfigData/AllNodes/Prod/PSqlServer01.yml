@@ -1,0 +1,4 @@
+NodeName: PSqlServer01
+Environment: Prod
+Role: SqlServer
+Description: SQL Server for Majesco
