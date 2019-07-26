@@ -1,0 +1,28 @@
+Configurations:
+  - WindowsFeatures
+  - FilesAndFolders
+  - SqlInstall
+
+WindowsFeatures:
+  Name:
+  - +Net-Framework-Features
+  - +RSAT-AD-PowerShell
+
+FilesAndFolders:
+  Items:
+    - DestinationPath: D:\SQLE1DAT1\
+      Type: Directory
+    - DestinationPath: D:\SQLE1LOG1\
+      Type: Directory
+    - DestinationPath: D:\SQLE1TMP1\
+      Type: Directory
+    - DestinationPath: D:\SVE1SQL1\
+      Type: Directory
+  
+SqlServer:
+  Features: SqlEngine
+  InstallSQLDataDir: D:\SVE1SQL1\
+  SQLUserDBDir: D:\SQLE1DAT1\
+  SQLUserDBLogDir: D:\SQLE1LOG1\
+  SQLTempDBDir:   D:\SQLE1DAT1\
+  SQLTempDBLogDir: D:\SQLE1LOG1\

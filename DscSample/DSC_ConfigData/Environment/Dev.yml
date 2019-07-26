@@ -1,7 +1,2 @@
 DscTagging:
   Environment: Dev
-
-FilesAndFolders:
-  Items:
-    - DestinationPath: C:\Test\Dev-Environment
-      Type: Directory

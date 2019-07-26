@@ -1,6 +1,8 @@
 Configurations:
   - FilesAndFolders
   - RegistryValues
+  - NetworkIpConfiguration
+
 
 FilesAndFolders:
   Items:
